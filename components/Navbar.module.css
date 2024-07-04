@@ -1,0 +1,56 @@
+/* components/Navbar.module.css */
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .appLinks a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .weather span {
+    margin-right: 10px;
+  }
+  
+  .temp {
+    color: red;
+  }
+  
+  .brand {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .brand h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight : 900 ;
+    color: red;
+  }
+  
+  .navLinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  
+  .navLinks a {
+    margin: 0 40px;
+    font-size : 20px ;
+    text-decoration: none;
+    color: #000;
+  }
+  

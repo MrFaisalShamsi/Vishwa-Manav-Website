@@ -1,0 +1,69 @@
+/* styles/Footer.module.css */
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer_top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer_logo {
+    margin-bottom: 20px;
+  }
+  
+  .footer_quick_links, .footer_punjab_kesari_group, .footer_contact {
+    margin-bottom: 20px;
+  }
+  
+  .footer_quick_links h3, .footer_punjab_kesari_group h3, .footer_contact h3 {
+    margin-bottom: 10px;
+  }
+
+  .footer_contact a{
+    text-decoration : none ;
+    color : black ;
+  }
+  
+  .footer_quick_links ul, .footer_punjab_kesari_group ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer_quick_links li, .footer_punjab_kesari_group li {
+    margin-bottom: 5px;
+  }
+
+  .footer_quick_links li a, .footer_punjab_kesari_group li a{
+    text-decoration : none ;
+    color : /* rgb(96, 130, 182) */ #808080 ; 
+  }
+  
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer_bottom_links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer_bottom_links li {
+    display: inline;
+  }
+
+  .footer_bottom_links li a{
+    text-decoration : none ;
+    color : black ;
+  }
+  
